@@ -17,4 +17,19 @@ car_2 = {
     "Colors" : ["Black", "White", "Silver"]
 }
 
+favorite_cars = [car_1, car_2]
+
+
+if favorite_cars == []:
+    print("This list is empty")
+    print("Lets add some items to thje list")
+
+
+elif favorite_cars[0]["Make"] == "Subaru":
+    print("This is a Subaru")
+
+
+else:
+    print("This list is not empty")
+    print(favorite_cars[0]["Make"]+" " + favorite_cars[0]["Model"] + " is my favorite car")
 
