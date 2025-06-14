@@ -51,7 +51,7 @@ favorite_cars = [
 for car in favorite_cars:
     try:
         if car["price"] > 100000:
-            print("This car is too expensive: ",car["make"]+" " + car["model"])
+            print("This car is too expensive:",car["make"]+" " + car["model"])
         else:
             continue
 
