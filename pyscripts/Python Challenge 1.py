@@ -45,3 +45,12 @@ match code:
         print("Page moved permanently")
     case 200:
         print("Page found")
+
+for car in favorite_cars:
+    try:
+        print(car["Make"] + " " + car["Model"] + " is a great car")
+    except TypeError as e:
+        print("There was a type error in the code")
+        print (e)
+    finally:
+        print("This is the end of the loop for this car")
