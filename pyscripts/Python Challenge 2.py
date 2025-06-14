@@ -58,3 +58,7 @@ for car in favorite_cars:
     except TypeError as e:
         print("There was a type error in the code")
         print(e)
+    except KeyError as e:
+        print("There was a key error in the code")
+        print(e)
+        
