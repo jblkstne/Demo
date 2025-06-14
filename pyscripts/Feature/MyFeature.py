@@ -13,3 +13,4 @@ if __name__ == "__main__":
     # Example usage
     user_name = input("Enter your name: ")
     print(greet_user(user_name))
+    print("Welcome to MyFeature!")
