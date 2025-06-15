@@ -1,0 +1,5 @@
+from myclass import Person
+
+me = Person(first="James", last="Blackstone", age="28", height=6)
+me.introduce()
+
